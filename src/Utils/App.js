@@ -1,14 +1,17 @@
 import React from "react";
 import PhotoList from "../Containers";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Container } from "react-bootstrap";
 function App() {
   return (
-    <div>
-      <header>
-        <h1>WondrTech Photo App Assignment</h1>
-      </header>
-      <PhotoList />
-    </div>
+    <>
+      <Container fluid>
+        <header>
+          <h1 className="text-center">Photos Gallery</h1>
+        </header>
+        <PhotoList />
+      </Container>
+    </>
   );
 }
 
