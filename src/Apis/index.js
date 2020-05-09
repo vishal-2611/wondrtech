@@ -1,8 +1,8 @@
 import Axios from "axios";
 
-export function photoList(numberOfImage) {
+export function photoList(pageNumber, numberOfImage) {
   return Axios.get(
-    `https://picsum.photos/v2/list?page=1&limit=${numberOfImage}`
+    `https://picsum.photos/v2/list?page=${pageNumber}&limit=${numberOfImage}`
   )
     .then((res) => {
       return res.data;
