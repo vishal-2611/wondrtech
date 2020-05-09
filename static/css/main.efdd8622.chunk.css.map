@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,KACE,QAAS,CACT,mJAEY,CACZ,kCAAmC,CACnC,iCACF,CAEA,KACE,yEAEF,CAZA,eACE,yEACF","file":"main.efdd8622.chunk.css","sourcesContent":[".photo-gallery {\n  background: url(\"../Assets/Loader.gif\") no-repeat center;\n}\n"]}
