@@ -26,7 +26,6 @@ export class PhotoList extends Component {
     window.addEventListener("scroll", this.listenToScroll);
     const currentPage = getLocalStorage("currentPage");
     const pageOffSet = getLocalStorage("pageOffSet");
-    debugger;
     if (Number(currentPage) >= 2) {
       const items = 30 + 10 * Number(currentPage);
       photoList(1, items).then((res) => {

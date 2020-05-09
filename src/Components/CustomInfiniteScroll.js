@@ -18,6 +18,8 @@ function CustomInfiniteScroll({
       <Row>
         {photoListData.map((res, index) => (
           <Col
+            xs="6"
+            sm="6"
             md="2"
             className="d-flex flex-column align-items-center"
             onClick={() => toggleModal(res)}
@@ -30,7 +32,7 @@ function CustomInfiniteScroll({
               height="300"
               width="250"
               alt={res.id}
-              className="photo-gallery"
+              className="photo-gallery p-2"
             />
             <h5>{res.author}</h5>
           </Col>
